@@ -71,9 +71,9 @@
 
       </div>
       <div id="form-wrapper">
-        <form>
-          <textarea id="comment-form"></textarea>
-          <input type="button" id="comment-button" value="Comment" onclick="validateComment">
+        <form id="commentForm">
+          <input type="text" placeholder="Write your comment" id="comment-form">
+          <input type="submit" id="comment-button" value="Comment">
         </form>
       </div>
     </div>
@@ -128,7 +128,7 @@
     </div>
   </div>
 </div>
-
+<script src="js/validate.js"></script>
 </body>
 
 </html>
